@@ -1,0 +1,10 @@
+proxies:
+    - { name: 台湾1, type: vmess, server: mf.tw1.eaxmple.site, port: 556, uuid: d03a18ef-0ccb-4a83-b9c5-deecdca179b2, alterId: 2, cipher: auto, network: ws, ws-path: / }
+    - { name: 香港2, type: vmess, server: mf.hkt2.eaxmple.site, port: 44333, uuid: d03a18ef-0ccb-4a83-b9c5-deecdca179b2, alterId: 2, cipher: auto, network: ws, ws-path: / }
+    - { name: 『B组』香港1, type: vmess, server: gzcmno.v2nb.cf, port: 32121, uuid: d03a18ef-0ccb-4a83-b9c5-deecdca179b2, alterId: 2, cipher: auto, network: ws, ws-path: /, ws-headers: { Host: Apple.com } }
+    - { name: 『B组』香港2, type: vmess, server: gzcmno.v2nb.cf, port: 32122, uuid: d03a18ef-0ccb-4a83-b9c5-deecdca179b2, alterId: 2, cipher: auto, network: ws, ws-path: /, ws-headers: { Host: Apple.com } }
+    - { name: 『B组』香港3, type: vmess, server: gzcmno.v2nb.cf, port: 32123, uuid: d03a18ef-0ccb-4a83-b9c5-deecdca179b2, alterId: 2, cipher: auto, network: ws, ws-path: /, ws-headers: { Host: Apple.com } }
+    - { name: 『C组』香港1, type: vmess, server: qzyd.eaxmple.site, port: 31101, uuid: d03a18ef-0ccb-4a83-b9c5-deecdca179b2, alterId: 2, cipher: auto, network: ws, ws-path: /, ws-headers: { Host: Apple.com } }
+    - { name: 『C组』香港2, type: vmess, server: qzyd.eaxmple.site, port: 31102, uuid: d03a18ef-0ccb-4a83-b9c5-deecdca179b2, alterId: 2, cipher: auto, network: ws, ws-path: /, ws-headers: { Host: Apple.com } }
+    - { name: 『C组』香港3, type: vmess, server: qzyd.eaxmple.site, port: 31104, uuid: d03a18ef-0ccb-4a83-b9c5-deecdca179b2, alterId: 2, cipher: auto, network: ws, ws-path: /, ws-headers: { Host: Apple.com } }
+    - { name: 『C组』台湾1, type: vmess, server: qzyd.eaxmple.site, port: 31106, uuid: d03a18ef-0ccb-4a83-b9c5-deecdca179b2, alterId: 2, cipher: auto, network: ws, ws-path: /, ws-headers: { Host: Apple.com } }

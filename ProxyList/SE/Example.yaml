@@ -1,0 +1,2 @@
+proxies:
+  - {name: Taiwan 2, server: tw2.example.site, port: 443, type: vmess, uuid: cf2d9c66-1e06-454c-9b5a-f667cb7ee325, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /v2ray, ws-headers: {Host: tw2.example.site}}
