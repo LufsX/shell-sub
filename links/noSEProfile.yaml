@@ -38,7 +38,7 @@ proxies:
 proxy-providers:
   ProxyList:
     type: http
-    url: https://clash-sub.isteed.cc/ProxyList/noSEProfile.yaml
+    url: https://lufsx.github.io/shell-sub/ProxyList/noSEProfile.yaml
     interval: 86400
     path: ./Proxy/noSEProfile.yaml
     health-check:
@@ -47,7 +47,7 @@ proxy-providers:
       url: http://www.gstatic.com/generate_204
   ProxyList-SE:
     type: http
-    url: https://clash-sub.isteed.cc/ProxyList/SE/noSEProfile-SE.yaml
+    url: https://lufsx.github.io/shell-sub/ProxyList/SE/noSEProfile-SE.yaml
     interval: 86400
     path: ./Proxy/SE/noSEProfile.yaml
     health-check:
