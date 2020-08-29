@@ -47,7 +47,7 @@ proxy-providers:
       url: http://www.gstatic.com/generate_204
   ProxyList-SE:
     type: http
-    url: https://lufsx.github.io/shell-sub/ProxyList/SE/fileName-SE.yaml
+    url: https://lufsx.github.io/shell-sub/ProxyList/SE/fileName.yaml
     interval: 86400
     path: ./Proxy/SE/fileName.yaml
     health-check:
