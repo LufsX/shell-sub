@@ -7,9 +7,9 @@ on:
   #   # 手动触发事件, 这里是按 star
   #   types: [started]
   push:
-    # 当主分支有推送时触发
+    # 当指定分支有推送时触发
     branches:
-      - master
+      - approach
 jobs:
   build:
     runs-on: ubuntu-latest
