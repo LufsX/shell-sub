@@ -1,0 +1,30 @@
+name: Example CI
+on:
+  # schedule:
+  #   # 每天运行一次, 有关 schedule 的例子, 可以在 https://crontab.guru/examples.html 查看
+  #   - cron: "0 0 * * *"
+  # watch:
+  #   # 手动触发事件, 这里是按 star
+  #   types: [started]
+  push:
+    # 当主分支有推送时触发
+    branches:
+      - master
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - name: Run shell
+        run: |
+          mv ./list.example.txt ./list.txt
+          sh ./make.sh
+      - name: Deploy
+        uses: peaceiris/actions-gh-pages@v3
+        with:
+          personal_token: ${{ secrets.GH_TOKEN }}
+          external_repository: LufsX/shell-sub
+          publish_branch: gh-page
+          publish_dir: ./public
+          full_commit_message: GitHub Actions Auto Update
+          disable_nojekyll: true

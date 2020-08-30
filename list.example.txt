@@ -1,0 +1,3 @@
+https://raw.githubusercontent.com/LufsX/shell-sub/master/ProfileExample/example.yaml Example
+https://raw.githubusercontent.com/LufsX/shell-sub/master/ProfileExample/fileName fileName
+https://raw.githubusercontent.com/LufsX/shell-sub/master/ProfileExample/noHKandTW noSEProfile
