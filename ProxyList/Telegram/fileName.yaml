@@ -1,0 +1,3 @@
+proxies:
+    - { name: 美国1, type: vmess, server: usa01.eaxmple.site, port: 701, uuid: d03a18ef-0ccb-4a83-b9c5-deecdca179b2, alterId: 2, cipher: auto, network: ws, ws-path: /, ws-headers: { Host: Apple.com } }
+    - { name: 『B组』美国1, type: vmess, server: gzcmno.eaxmple.site, port: 32126, uuid: d03a18ef-0ccb-4a83-b9c5-deecdca179b2, alterId: 2, cipher: auto, network: ws, ws-path: /, ws-headers: { Host: Apple.com } }
