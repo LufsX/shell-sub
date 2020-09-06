@@ -116,7 +116,7 @@ seGourpGrep() {
 
 telegramGourpGrep() {
     for n in $(seq ${const}); do
-        echo "\033[33m Start grep se gourp\033[0m"
+        echo "\033[33m Start grep telegram gourp\033[0m"
         profileName=$(sed -n "${n}"p "$list" | cut -f 2 -d " ")
         # 变量绑定文件相对路径
         nodeList=./public/ProxyList/$profileName\.yaml
