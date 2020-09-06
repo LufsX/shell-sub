@@ -1,3 +1,1 @@
 proxies:
-  - {name: Singapore 1, server: sg1.example.site, port: 666, type: ss, cipher: chacha20-ietf, password: eq2u58e7li5, plugin: obfs, plugin-opts: {mode: http, host: microsoft.com}}
-  - {name: UnitedStates 1, server: us1.example.site, port: 666, type: ss, cipher: chacha20-ietf, password: eq2u58e7li5, plugin: obfs, plugin-opts: {mode: http, host: microsoft.com}}

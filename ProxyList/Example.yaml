@@ -1,9 +1,0 @@
-proxies:
-  - {name: Japan 1, server: jp1.example.site, port: 443, type: vmess, uuid: cf2d9c66-1e06-454c-9b5a-f667cb7ee325, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /v2ray, ws-headers: {Host: jp1.example.site}}
-  - {name: Taiwan 2, server: tw2.example.site, port: 443, type: vmess, uuid: cf2d9c66-1e06-454c-9b5a-f667cb7ee325, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /v2ray, ws-headers: {Host: tw2.example.site}}
-  - {name: German 1, server: de1.example.site, port: 666, type: ss, cipher: chacha20-ietf, password: eq2u58e7li5, plugin: obfs, plugin-opts: {mode: http, host: microsoft.com}}
-  - {name: Japan 1, server: jp1.example.site, port: 666, type: ss, cipher: chacha20-ietf, password: eq2u58e7li5, plugin: obfs, plugin-opts: {mode: http, host: microsoft.com}}
-  - {name: Russia 1, server: ru1.example.site, port: 666, type: ss, cipher: chacha20-ietf, password: eq2u58e7li5, plugin: obfs, plugin-opts: {mode: http, host: microsoft.com}}
-  - {name: Russia 2, server: ru2.example.site, port: 666, type: ss, cipher: chacha20-ietf, password: eq2u58e7li5, plugin: obfs, plugin-opts: {mode: http, host: microsoft.com}}
-  - {name: Singapore 1, server: sg1.example.site, port: 666, type: ss, cipher: chacha20-ietf, password: eq2u58e7li5, plugin: obfs, plugin-opts: {mode: http, host: microsoft.com}}
-  - {name: UnitedStates 1, server: us1.example.site, port: 666, type: ss, cipher: chacha20-ietf, password: eq2u58e7li5, plugin: obfs, plugin-opts: {mode: http, host: microsoft.com}}

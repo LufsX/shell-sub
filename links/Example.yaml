@@ -149,7 +149,7 @@ rule-providers:
     type: http
     behavior: classical
     path: ./RuleSet/Extra/OneDrive.yaml
-    url: https://proxy.lufs.workers.dev?url=https://raw.githubusercontent.com/DivineEngine/Profiles/master/Clash/RuleSet/Extra/Microsoft/OneDrive.yaml
+    url: https://clash-sub.isteed.cc/RuleSet/Extra/Microsoft/OneDrive.yaml
     interval: 86400
   DirectCustom:
     type: http
@@ -164,6 +164,10 @@ rule-providers:
     url: https://clash-sub.isteed.cc/RuleSet/ProxyCustom.yaml
     interval: 86400
 rules:
+  - RULE-SET,DirectCustom,DIRECT
+  - RULE-SET,ProxyCustom,PROXY
+  - RULE-SET,Telegram,Telegram
+  - RULE-SET,OneDrive,OneDrive
   - RULE-SET,Unbreak,DIRECT
   - RULE-SET,Streaming,Streaming
   - RULE-SET,StreamingSE,StreamingSE
@@ -177,7 +181,3 @@ rules:
   - IP-CIDR,224.0.0.0/4,DIRECT
   - RULE-SET,ChinaIP,DIRECT
   - MATCH,MATCH
-  - RULE-SET,DirectCustom,DIRECT
-  - RULE-SET,ProxyCustom,PROXY
-  - RULE-SET,Telegram,Telegram
-  - RULE-SET,OneDrive,OneDrive
