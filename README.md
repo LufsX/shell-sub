@@ -140,7 +140,7 @@ proxy-providers:
 - [ ] 自定义节点排序
 - [ ] checkCommand
 - [ ] 优化配置文件生成
-- [ ] 重构代码
+- [ ] 重构代码, 增加 Python 版本(学习中~)
 
 # Contributing
 
