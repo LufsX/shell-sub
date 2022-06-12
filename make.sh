@@ -105,7 +105,7 @@ seGourpGrep() {
         outputSE=./public/ProxyList/SE/$profileName\.yaml
         echo proxies\: >$outputSE
         # 过滤带关键字的节点
-        grep -E '(HK|TW|Hongkong|Taiwan|HongKong|TaiWan|港|台)' $nodeList >>$outputSE
+        grep -E '(HK|TW|Hongkong|Taiwan|HongKong|Hong Kong|TaiWan|Tai Wan|港|台))' $nodeList >>$outputSE
         outputCheck=$(awk '{print NR}' $outputSE | tail -n1)
         echo " The profile has" "$(expr $outputCheck - 1)" "TW/HK proxie(s)"
         [ "$outputCheck" = "1" ] && echo '\033[31m File:' $nodeList 'has no proxie with TW/HK \033[0m'
